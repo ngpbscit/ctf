@@ -1,0 +1,4 @@
+This website can be rendered only by picobrowser, go and 
+
+catch the flag! https://jupiter.challenges.picoctf.org/problem/28921/ 
+

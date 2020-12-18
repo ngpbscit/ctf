@@ -1,0 +1,8 @@
+Submit your answer in our flag format. For example, 
+
+if your answer was 'hello', you would submit 'picoCTF{hello}' as the flag.
+
+
+find the age of this site in days.
+
+site : www.drngpasc.ac.in
