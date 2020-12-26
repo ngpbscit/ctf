@@ -26,21 +26,23 @@
         <div class="header">
             <!-- <nav class="navbar navbar-expand-lg navbar-light text-light pt-10 " style="background-color: #1864AB; margin-top: 10px;"> -->
               <nav class="navbar navbar-expand-lg navbar-expand-sm navbar-dark bg-dark">
-              <img src="images/logo.png" alt="Dr NGP asc" style="width: auto;height: auto;">
+              <img src="images/logo.png" alt="Dr NGP asc" style="width: 50%;height:auto;">
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                   <span class="navbar-toggler-icon"></span>
                 </button>
               
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                  <ul class="navbar-nav mr-auto p-5" >
+                <!-- <div class="collapse navbar-collapse pl-5" id="navbarSupportedContent"> -->
+                  <ul class="navbar-nav mr-auto ml-5" >
                     <li class="nav-item active">
-                      <a class="nav-link text-light" href="index.html"> Home<span class="sr-only">(current)</span></a>
-                    </li>
+                     <button id="button-h" class="btn btn-secondary"> <a class="nav-link text-light" href="index.html"> Home<span class="sr-only">(current)</span></a>
+                     </button> </li>
                     <li class="nav-item ">
-                      <a class="nav-link text-light" href="rules.html"> Rules of Hackathon<span class="sr-only">(current)</span></a>
-                    </li>
+                    <button id="button-h" class="btn btn-secondary">  <a class="nav-link text-light" href="rules.html"> Rules of Hackathon<span class="sr-only">(current)</span></a>
+                    </button> </li>
                   </ul>
-                </div>
+
+                  <img src="images/iic.jpeg" alt="IIC" style="width: 20%;height:auto;">
+                <!-- </div> -->
               </nav>
             </div>
               <div class="tasks">
@@ -620,9 +622,7 @@ myModal.addEventListener('shown.bs.modal', function () {
 </script>
 </body>
 <style>
-  .card{
-    margin-top: 20px;
-
-  }
+  .card{margin-top: 20px;}
+  #button-h{border-radius: 200px;};
 </style>
 </html>
